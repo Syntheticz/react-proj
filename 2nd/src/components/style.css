@@ -1,0 +1,81 @@
+
+
+.super-container{
+    background-image: url('logo512.png');
+    background-repeat: no-repeat;
+    background-position: 32rem 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #0078AA;
+    padding: .3rem 0;
+}
+
+nav img{
+    margin-left: 1rem;
+}
+
+nav h2{
+    margin-left: .5rem;
+}
+
+.project-logo{
+    display: flex;
+    align-items: center;
+    color: #61DAFB;
+    font-size: 1.2rem;
+    font-weight: 700;
+    width: 50%;
+}
+
+.project-title {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-right: 1rem;
+}
+
+.main-container{
+    position: relative;
+    background-color: #3ab5f28d;
+    height: 100%;
+}
+
+.sub-container{
+    padding-top: 2rem;
+    margin-left: 2rem;
+}
+
+.sub-container h1{
+    color: white;
+    margin: 0;
+}
+
+.sub-container ul li{
+    color: #F2DF3A;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.sub-container ul li p{
+    color: #F6F6F6;
+    margin: .5rem;
+}
+
+.footer{
+    position: fixed;
+    padding: 1px;
+    bottom: 0;
+}
+
+

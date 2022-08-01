@@ -58,9 +58,31 @@
     max-width: 20rem;
 }
 
+.card-badge{
+    position: absolute ;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 1rem;
+    z-index: 1;
+    border-radius: 7px;
+    background-color: #F5F5F5;
+}
+
+.card-overllay{
+    position: absolute;
+    object-fit: cover;
+    width: 320px;
+    height: 250px;
+    border-radius: 20px;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.394);
+}
+
 .card-image{
     object-fit: cover;
     height: 250px;
+    width: 320px;
     border-radius: 20px;
     box-shadow: 7px 10px rgba(0, 0, 0, 0.079);
 }
@@ -97,9 +119,12 @@
 
 .cat-experience-container{
     display: flex;
+    position: relative;
+    flex: 0 0 auto;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: auto;
     height: auto;
 }
+

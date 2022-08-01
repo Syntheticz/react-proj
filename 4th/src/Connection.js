@@ -21,10 +21,14 @@ async function run() {
         const col = db.collection("cats");
 
         let catData = {
-            "name": "Whiskers",
+            "name": "sol",
             "ratings": 5,
             "price" : 5
         }
+
+        const p = await col.insertOne(catData);
+        const myDoc = await col.findOne();
+        console.log(myDoc)
 
     } catch (err) {
 

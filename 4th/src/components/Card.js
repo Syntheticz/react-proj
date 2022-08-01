@@ -9,9 +9,15 @@ export default function Card(props) {
   var name = props.name;
   var ratings = props.ratings;
   var price = props.price;
+  var status = props.available;
 
   return (
     <div className='card-container'>
+        {status === false && 
+        <>
+          <div className='card-badge'>Not Available</div>
+          <div className='card-overllay'></div>
+        </>}
         <img className="card-image" src={img} alt="catterou"/>
         <div className='stars-container'>
             <img src={staricon} alt="star icon"/>
